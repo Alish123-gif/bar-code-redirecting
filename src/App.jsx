@@ -5,11 +5,11 @@ import './App.css';
 function App() {
   useEffect(() => {
     if (isAndroid) {
-      // Redirect to Google Play Store if Android device
-      window.location.href = 'https://play.google.com/store/apps';
+      // Redirect to Twitter app on Google Play Store
+      window.location.href = 'https://play.google.com/store/apps/details?id=com.twitter.android';
     } else if (isIOS) {
-      // Redirect to App Store if iOS device
-      window.location.href = 'https://apps.apple.com/us/genre/ios/id36';
+      // Redirect to Instagram app on App Store
+      window.location.href = 'https://apps.apple.com/us/app/instagram/id389801252';
     }
   }, []);
 
